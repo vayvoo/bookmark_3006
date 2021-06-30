@@ -1,11 +1,21 @@
 .hero{
-    background-image: url("/img/site-hero-desktop-right-bg.png");
-    background-position: calc(50% + 550px), calc(50% + 100px);
-    background-repeat: no-repeat;
-    min-height: 485.5px;
-    margin-bottom: 80px;
+    margin-bottom: 180px;
 }
-
+.hero__container{
+    display: flex;
+    position: relative; 
+}
+.hero__container::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background: url("/img/site-hero-desktop-right-bg.png");
+    left: 560px;
+    top: -70px;
+    width: 100%;
+    min-height: 485px;
+    
+}
 .hero__info{
     width: 540px;
 }

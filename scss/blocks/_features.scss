@@ -2,7 +2,6 @@
     width: 540px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fff;
 }
 .features__title{
     text-align: center;
@@ -11,4 +10,11 @@
 .features__text{
     text-align: center;
     margin-bottom: 72px;
+}
+.features__panel{
+    display: none;
+
+    &--active{
+        display: block;
+    }
 }

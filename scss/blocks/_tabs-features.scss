@@ -1,0 +1,22 @@
+.tabs-features{
+    display: flex;
+    justify-content: center;
+    @include list-unstyled;
+    margin-bottom: 72px;
+}
+
+.tabs-features__link{
+    color: $dark-blue-color;
+    padding: 0 32px 27px 41px;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.533333px;
+
+    &:hover{
+        color: $btn-color;
+    }
+}
+.tabs-features__item--active .tabs-features__link{
+    border-bottom: 4px solid $btn-color;
+}
