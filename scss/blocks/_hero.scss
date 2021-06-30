@@ -1,21 +1,11 @@
 .hero{
-    display: flex;
-    padding-top: 110px;
-    padding-bottom: 80px;
+    background-image: url("/img/site-hero-desktop-right-bg.png");
+    background-position: calc(50% + 550px), calc(50% + 100px);
+    background-repeat: no-repeat;
+    min-height: 485.5px;
+    margin-bottom: 80px;
 }
-.hero::after{
-    content: "";
-    position: absolute;
-    background: url("/img/site-hero-desktop-right-bg.png");
-    top: 150px;
-    left: 650px;
-    width: 1154px;
-    height: 485px
-}
-.hero__container{
-    display: flex;
-    align-items: center;
-}
+
 .hero__info{
     width: 540px;
 }
