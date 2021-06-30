@@ -1,0 +1,22 @@
+.btn{
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.20012);
+    border-radius: 5px;
+}
+.btn--chrome{
+    padding: 10px 24px;
+    background-color: $accent-color;
+    color: #fff;
+    margin-right: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+}
+.btn--firefox{
+    padding: 10px 24px;
+    background: #F7F7F7;
+    color: $dark-blue-color;
+    margin-right: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+}

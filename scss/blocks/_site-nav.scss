@@ -1,0 +1,18 @@
+.site-nav__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include list-unstyled;
+}
+.site-nav__item{
+    margin-left: 48px;
+}
+.site-nav__link{
+    text-decoration: none;
+    color: $dark-blue-color;
+}
+.site-nav__btn{
+    padding: 12px 32px 11px 34px;
+    background-color: $btn_color;
+    color: #fff;
+}

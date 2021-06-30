@@ -1,0 +1,38 @@
+.hero{
+    display: flex;
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+.hero::after{
+    content: "";
+    position: absolute;
+    background: url("/img/site-hero-desktop-right-bg.png");
+    top: 150px;
+    left: 650px;
+    width: 1154px;
+    height: 485px
+}
+.hero__container{
+    display: flex;
+    align-items: center;
+}
+.hero__info{
+    width: 540px;
+}
+.hero__title{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.15px;
+    margin-bottom: 24px;
+}
+.hero__text{
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.5;
+}
+.hero__links{
+    display: flex;
+    align-items: center;
+}
