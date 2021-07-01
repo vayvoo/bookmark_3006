@@ -539,6 +539,14 @@ img {
   opacity: 0.5;
 }
 
+.features {
+  padding-bottom: 89px;
+  background: url("/img/back-color.svg") no-repeat;
+  background-position: left bottom;
+  background-size: auto;
+  margin-bottom: 150px;
+}
+
 .features__info {
   width: 540px;
   margin-left: auto;
@@ -557,10 +565,19 @@ img {
 
 .features__panel {
   display: none;
+  position: relative;
 }
 
 .features__panel--active {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .tabs-features {
@@ -591,5 +608,23 @@ img {
 
 .tabs-features__item--active .tabs-features__link {
   border-bottom: 4px solid #fa5959;
+}
+
+.panel__info {
+  width: 445px;
+}
+
+.panel__title {
+  margin-bottom: 16px;
+}
+
+.panel__text {
+  margin-bottom: 32px;
+}
+
+.panel__btn {
+  color: #fff;
+  background-color: #5267df;
+  padding: 10px 24px;
 }
 /*# sourceMappingURL=main.css.map */

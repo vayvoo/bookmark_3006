@@ -1,3 +1,10 @@
+.features{
+    padding-bottom: 89px;
+    background: url("/img/back-color.svg") no-repeat;
+    background-position: left bottom;
+    background-size: auto;
+    margin-bottom: 150px;
+}
 .features__info{
     width: 540px;
     margin-left: auto;
@@ -13,8 +20,11 @@
 }
 .features__panel{
     display: none;
+    position: relative;
 
     &--active{
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
