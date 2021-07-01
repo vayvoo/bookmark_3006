@@ -758,4 +758,112 @@ img {
   padding: 10px 35px;
   white-space: nowrap;
 }
+
+.faq {
+  margin-bottom: 150px;
+}
+
+.faq__info {
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq__title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.faq__text {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.faq__btn {
+  padding: 10px 24px;
+  color: #fff;
+  background-color: #5267df;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 54px;
+}
+
+.accordion-faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.accordion-faq__item {
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion-faq__item:not(:first-child) {
+  border-bottom: 1px solid rgba(36, 42, 69, 0.15);
+}
+
+.accordion-faq__item:first-child {
+  border-bottom: 1px solid rgba(36, 42, 69, 0.15);
+  border-top: 1px solid rgba(36, 42, 69, 0.15);
+}
+
+.accordion-faq__item--active .accordion-faq__content {
+  height: auto;
+}
+
+.accordion-faq__item--active .accordion-faq__heading::before {
+  background: url("/img/up-arrow.svg") no-repeat;
+}
+
+.accordion-faq__item--active .accordion-faq__heading {
+  margin-bottom: 32px;
+}
+
+.accordion-faq__heading {
+  margin: 0;
+  padding: 0;
+  padding-top: 19px;
+  padding-bottom: 13px;
+  position: relative;
+  font-size: 18px;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.accordion-faq__heading::before {
+  content: "";
+  position: absolute;
+  background: url("/img/arrow-to-bottom.svg") no-repeat;
+  top: 50%;
+  right: 20px;
+  width: 20px;
+  height: 12px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.accordion-faq__heading:hover {
+  color: #fa5959;
+}
+
+.accordion-faq__content {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow-y: auto;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  opacity: 0.75;
+}
 /*# sourceMappingURL=main.css.map */

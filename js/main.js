@@ -24,3 +24,10 @@ if (elsTabsFeaturesLink.length > 0){
         });
     });
 }
+
+const accordion = document.getElementsByClassName("accordion-faq__item")
+for (i=0; i < accordion.length; i++){
+    accordion[i].addEventListener('click', function(){
+        this.classList.toggle('accordion-faq__item--active')
+    })
+}
