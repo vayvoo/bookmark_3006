@@ -815,6 +815,7 @@ img {
 
 .accordion-faq__item--active .accordion-faq__content {
   height: auto;
+  margin-bottom: 29px;
 }
 
 .accordion-faq__item--active .accordion-faq__heading::before {
