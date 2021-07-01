@@ -79,4 +79,10 @@
     background-color: $accent-color;
     padding: 10px 35px;
     white-space: nowrap;
+    border: 2px solid $accent-color;
+
+    &:hover{
+        color: $accent-color;
+        background-color: #fff;
+    }
 }

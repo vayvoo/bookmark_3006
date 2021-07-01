@@ -1,14 +1,12 @@
 .form__input{
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
     padding: 10px 20px;
     margin-right: 16px;
     border: none;
     border-radius: 5px;
     color: $text-color;
-}
-.form__input::placeholder{
-    font-size: 14px;
-    line-height: 28px;
-    letter-spacing: 0.25px;
 }
 .form__btn{
     font-weight: 500;
@@ -19,4 +17,5 @@
     padding: 10px 24px;
     color: #fff;
     background-color: $btn-color;
+    border: none;
 }

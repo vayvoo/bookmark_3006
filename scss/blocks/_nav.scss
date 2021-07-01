@@ -5,6 +5,10 @@
     text-align: right;
     letter-spacing: 1.5px;
     color: #fff;
+
+    &:hover{
+        color: $btn-color;
+    }
 }
 .nav__item{
     margin-right: 44px;

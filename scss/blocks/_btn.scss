@@ -4,19 +4,32 @@
 }
 .btn--chrome{
     padding: 10px 24px;
+    margin-right: 16px;
     background-color: $accent-color;
     color: #fff;
-    margin-right: 16px;
+    border: 2px solid $accent-color;
     font-weight: 500;
     font-size: 14px;
     line-height: 28px;
+
+    &:hover{
+        color: $accent-color;
+        background-color: #fff;
+    }
 }
 .btn--firefox{
     padding: 10px 24px;
     background: #F7F7F7;
     color: $dark-blue-color;
+    border: 2px solid #F7F7F7;
     margin-right: 16px;
     font-weight: 500;
     font-size: 14px;
     line-height: 28px;
+
+    &:hover{
+        background-color: #F7F7F7;
+        color: $dark-blue-color;
+        border: 2px solid $dark-blue-color;
+    }
 }

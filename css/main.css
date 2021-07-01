@@ -436,10 +436,20 @@ img {
   color: #242a45;
 }
 
+.site-nav__link:hover {
+  color: #fa5959;
+}
+
 .site-nav__btn {
   padding: 12px 32px 11px 34px;
   background-color: #fa5959;
   color: #fff;
+  border: 2px solid #fa5959;
+}
+
+.site-nav__btn:hover {
+  color: #fa5959;
+  background-color: #fff;
 }
 
 .btn {
@@ -450,22 +460,35 @@ img {
 
 .btn--chrome {
   padding: 10px 24px;
+  margin-right: 16px;
   background-color: #5267df;
   color: #fff;
-  margin-right: 16px;
+  border: 2px solid #5267df;
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
+}
+
+.btn--chrome:hover {
+  color: #5267df;
+  background-color: #fff;
 }
 
 .btn--firefox {
   padding: 10px 24px;
   background: #F7F7F7;
   color: #242a45;
+  border: 2px solid #F7F7F7;
   margin-right: 16px;
   font-weight: 500;
   font-size: 14px;
   line-height: 28px;
+}
+
+.btn--firefox:hover {
+  background-color: #F7F7F7;
+  color: #242a45;
+  border: 2px solid #242a45;
 }
 
 .link {
@@ -757,6 +780,12 @@ img {
   background-color: #5267df;
   padding: 10px 35px;
   white-space: nowrap;
+  border: 2px solid #5267df;
+}
+
+.cards__btn:hover {
+  color: #5267df;
+  background-color: #fff;
 }
 
 .faq {
@@ -916,35 +945,14 @@ img {
 }
 
 .form__input {
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
   padding: 10px 20px;
   margin-right: 16px;
   border: none;
   border-radius: 5px;
   color: #9194a2;
-}
-
-.form__input::-webkit-input-placeholder {
-  font-size: 14px;
-  line-height: 28px;
-  letter-spacing: 0.25px;
-}
-
-.form__input:-ms-input-placeholder {
-  font-size: 14px;
-  line-height: 28px;
-  letter-spacing: 0.25px;
-}
-
-.form__input::-ms-input-placeholder {
-  font-size: 14px;
-  line-height: 28px;
-  letter-spacing: 0.25px;
-}
-
-.form__input::placeholder {
-  font-size: 14px;
-  line-height: 28px;
-  letter-spacing: 0.25px;
 }
 
 .form__btn {
@@ -956,6 +964,7 @@ img {
   padding: 10px 24px;
   color: #fff;
   background-color: #fa5959;
+  border: none;
 }
 
 .site-footer {
@@ -1008,6 +1017,14 @@ img {
   margin-left: 40px;
 }
 
+.site-footer__social--twitter:hover {
+  fill: #fa5959;
+}
+
+.site-footer__social--fb:hover {
+  fill: #fa5959;
+}
+
 .nav__link {
   text-decoration: none;
   font-size: 13px;
@@ -1015,6 +1032,10 @@ img {
   text-align: right;
   letter-spacing: 1.5px;
   color: #fff;
+}
+
+.nav__link:hover {
+  color: #fa5959;
 }
 
 .nav__item {

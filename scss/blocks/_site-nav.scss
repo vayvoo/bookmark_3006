@@ -10,9 +10,19 @@
 .site-nav__link{
     text-decoration: none;
     color: $dark-blue-color;
+
+    &:hover{
+        color: $btn-color;
+    }
 }
 .site-nav__btn{
     padding: 12px 32px 11px 34px;
     background-color: $btn_color;
     color: #fff;
+    border: 2px solid $btn-color;
+
+    &:hover{
+        color: $btn-color;
+        background-color: #fff;
+    }
 }
