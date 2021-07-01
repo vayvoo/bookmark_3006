@@ -1,0 +1,26 @@
+.site-footer{
+    background-color: $dark-blue-color;
+}
+.site-footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.site-footer__main{
+    display: flex;
+    align-items: center;
+}
+.site-footer__nav{
+    @include list-unstyled;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-footer__logo{
+    margin-right: 63px;
+}
+.site-footer__social--twitter{
+    margin-left: 40px;
+}
